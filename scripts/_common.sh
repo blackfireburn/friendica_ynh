@@ -5,7 +5,8 @@
 #=================================================
 
 # dependencies used by the app
-pkg_dependencies="php-mbstring php-cli php-imagick php-gd php-xml"
+YNH_PHP_VERSION="7.3"
+pkg_dependencies="php${YNH_PHP_VERSION}-imagick php${YNH_PHP_VERSION} php${YNH_PHP_VERSION}-mbstring php${YNH_PHP_VERSION}-cli php${YNH_PHP_VERSION}-xml php${YNH_PHP_VERSION}-gd"
 
 # =============================================================================
 # COMMON ROUNDCUBE FUNCTIONS
