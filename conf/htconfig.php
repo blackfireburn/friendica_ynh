@@ -79,7 +79,7 @@ $a->config['system']['maximagesize'] = 800000;
 
 // Location of PHP command line processor
 
-$a->config['php_path'] = 'php';
+$a->config['php_path'] = 'php7.3';
 
 // Server-to-server private message encryption (RINO) is allowed by default.
 // set to 0 to disable, 1 to enable
